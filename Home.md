@@ -1,5 +1,7 @@
 Welcome to **jQuery Steps**
 
+> The documentation is currently under construction and will be completed soon. 
+
 ## Index
 
 * **Getting Started**
