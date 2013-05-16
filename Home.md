@@ -1,6 +1,7 @@
 Welcome to **jQuery Steps**
 
-> The documentation is currently under construction and will be completed soon. 
+> The documentation is currently under construction and will be completed soon.
+> However, in the meanwhile you are able to generate a API documentation by using the following *GruntJS* command `grunt api`.
 
 ## Index
 
