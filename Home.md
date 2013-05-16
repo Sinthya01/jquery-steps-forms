@@ -5,21 +5,23 @@ Welcome to **jQuery Steps**
 
 ## Index
 
-* **Getting Started**
+### Getting Started
 
-* **Demo**
- * **Basic Example**
- * **Async Example**
- * **Basic Form Example**
- * **Advanced Form Example**
- * **Dynamic Manipulation Example**
+### Demo
 
-* **API Reference**
- * **Settings**
- * **Methods**
- * **Events**
- * **Transitions**
+* **Basic Example**
+* **Async Example**
+* **Basic Form Example**
+* **Advanced Form Example**
+* **Dynamic Manipulation Example**
 
-* **[Requirements](https://github.com/rstaib/jquery-steps/wiki/Requirements)**
+### API Reference
 
-* **[Integration](https://github.com/rstaib/jquery-steps/wiki/Integration)**
+* **Settings**
+* **Methods**
+* **Events**
+* **Transitions**
+
+### [Requirements](https://github.com/rstaib/jquery-steps/wiki/Requirements)
+
+### [Integration](https://github.com/rstaib/jquery-steps/wiki/Integration)
