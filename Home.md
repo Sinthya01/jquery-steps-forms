@@ -1,4 +1,4 @@
-Welcome to the **jQuery Steps**
+Welcome to **jQuery Steps**
 
 ## Index
 
