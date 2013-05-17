@@ -9,11 +9,11 @@ Welcome to **jQuery Steps**
 
 ### Demo
 
-* **Basic Example**
+* **[Basic Example](http://rstaib.github.io/jquery-steps/basic.html)**
 * **Async Example**
 * **Basic Form Example**
 * **Advanced Form Example**
-* **Dynamic Manipulation Example**
+* **[Dynamic Manipulation Example](http://rstaib.github.io/jquery-steps/add-remove.html)**
 
 ### API Reference
 
