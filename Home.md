@@ -11,6 +11,7 @@ Welcome to **jQuery Steps**
 
 * **[Basic Example](http://rstaib.github.io/jquery-steps/basic.html)**
 * **Async Example**
+* **[Embedded Iframe Example](http://rstaib.github.io/jquery-steps/iframe.html)**
 * **Basic Form Example**
 * **Advanced Form Example**
 * **[Dynamic Manipulation Example](http://rstaib.github.io/jquery-steps/add-remove.html)**
