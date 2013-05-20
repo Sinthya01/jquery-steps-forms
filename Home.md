@@ -15,6 +15,8 @@ Welcome to **jQuery Steps**
 * **[Basic Form Example](http://rstaib.github.io/jquery-steps/basic-form.html)**
 * **Advanced Form Example**
 * **[Dynamic Manipulation Example](http://rstaib.github.io/jquery-steps/add-remove.html)**
+* **Pagination Example**
+* **Use as Tab Component Example**
 
 ### API Reference
 
