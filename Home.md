@@ -28,3 +28,5 @@ Welcome to **jQuery Steps**
 ### [Requirements](https://github.com/rstaib/jquery-steps/wiki/Requirements)
 
 ### [Integration](https://github.com/rstaib/jquery-steps/wiki/Integration)
+
+### [Roadmap](https://github.com/rstaib/jquery-steps/wiki/Roadmap)
