@@ -71,8 +71,8 @@ var settings = {
     cssClass: "wizard",
 
     /* Templates */
-    titleTemplate: "<span class=\"number\">#index#.</span> #title#",
-    loadingTemplate: "<span class=\"spinner\"></span> #text#",
+    titleTemplate: '<span class="number">#index#.</span> #title#',
+    loadingTemplate: '<span class="spinner"></span> #text#',
 
     /* Behaviour */
     autoFocus: false,
