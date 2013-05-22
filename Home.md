@@ -25,8 +25,8 @@ Welcome to **jQuery Steps**
 * **[Settings](https://github.com/rstaib/jquery-steps/wiki/Settings)**
 * **[Step Object](https://github.com/rstaib/jquery-steps/wiki/Step-Object)**
 * **[Methods](https://github.com/rstaib/jquery-steps/wiki/Methods)**
-* **Events**
-* **Transitions**
+* **[Events](https://github.com/rstaib/jquery-steps/wiki/Settings#Events)**
+* **[Transitions](https://github.com/rstaib/jquery-steps/wiki/Settings#Events)**
 
 ### [Requirements](https://github.com/rstaib/jquery-steps/wiki/Requirements)
 
