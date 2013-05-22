@@ -1,8 +1,8 @@
 |Method Name|Description|Parameters|Return Type|
 |---|---|---|---|
 |add||[Object step](https://github.com/rstaib/jquery-steps/wiki/Step-Object)|Object wizard|
-|insert||||
-|remove||||
-|getCurrentStep||||
-|getCurrentIndex||||
+|insert||Integer index, [Object step](https://github.com/rstaib/jquery-steps/wiki/Step-Object)|Object wizard|
+|remove||Integer index|Boolean|
+|getCurrentStep||-|[Object step](https://github.com/rstaib/jquery-steps/wiki/Step-Object)|
+|getCurrentIndex||-|Integer|
 |||||
