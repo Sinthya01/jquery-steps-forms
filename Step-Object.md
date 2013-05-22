@@ -1,4 +1,4 @@
-|Setting Name|Description|Type|Default Value|
+|Property Name|Description|Type|Default Value|
 |---|---|---|---|
 |title|The step title (HTML).|String|``|
 |content|The step content (HTML).|String|``|
