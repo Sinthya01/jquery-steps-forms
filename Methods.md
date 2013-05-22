@@ -6,3 +6,6 @@
 |getCurrentStep||-|[Object step](https://github.com/rstaib/jquery-steps/wiki/Step-Object)|
 |getCurrentIndex||-|Integer|
 |getStep|Gets a specific step object by index.|Integer index|[Object step](https://github.com/rstaib/jquery-steps/wiki/Step-Object)|
+|next||-|Boolean|
+|previous||-|Boolean|
+|finish||-|void|
