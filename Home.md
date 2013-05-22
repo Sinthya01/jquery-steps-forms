@@ -23,8 +23,8 @@ Welcome to **jQuery Steps**
 ### API Reference
 
 * **[Settings](https://github.com/rstaib/jquery-steps/wiki/Settings)**
-* **[Step Settings](https://github.com/rstaib/jquery-steps/wiki/Step-Settings)**
-* **Methods**
+* **[Step Object](https://github.com/rstaib/jquery-steps/wiki/Step-Object)**
+* **[Methods](https://github.com/rstaib/jquery-steps/wiki/Methods)**
 * **Events**
 * **Transitions**
 
