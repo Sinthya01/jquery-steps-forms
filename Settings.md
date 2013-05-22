@@ -2,65 +2,36 @@
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
-|headerTag|The header tag is used to find the step button text within the declared wizard area.|String|h1|
-|bodyTag|The body tag is used to find the step content within the declared wizard area.|String|div|
-|contentContainerTag|The content container tag which will be used to wrap all step contents.|String|div|
-|actionContainerTag|The action container tag which will be used to wrap the pagination navigation.|String|div|
-|stepsContainerTag|The steps container tag which will be used to wrap the steps navigation.|String|div|
-|cssClass|The css class which will be added to the outer component wrapper.|String|wizard|
+|headerTag|The header tag is used to find the step button text within the declared wizard area.|String|`h1`|
+|bodyTag|The body tag is used to find the step content within the declared wizard area.|String|`div`|
+|contentContainerTag|The content container tag which will be used to wrap all step contents.|String|`div`|
+|actionContainerTag|The action container tag which will be used to wrap the pagination navigation.|String|`div`|
+|stepsContainerTag|The steps container tag which will be used to wrap the steps navigation.|String|`div`|
+|cssClass|The css class which will be added to the outer component wrapper.|String|`wizard`|
 
 # Templates
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
-|titleTemplate|The title template which will be used to create a step button.|String|<span class="number">#index#.</span> #title#|
-|loadingTemplate|The loading template which will be used to create the loading animation.|String|<span class="spinner"></span> #text#|
+|titleTemplate|The title template which will be used to create a step button.|String|`<span class="number">#index#.</span> #title#`|
+|loadingTemplate|The loading template which will be used to create the loading animation.|String|`<span class="spinner"></span> #text#`|
+
+# Behaviour
+
+|Setting Name|Description|Type|Default Value|
+|---|---|---|---|
+|autoFocus|Sets the focus to the first wizard instance in order to enable the key navigation from the begining if `true`.|Boolean|`false`|
+|enableAllSteps|Enables all steps from the begining if `true` (all steps are clickable).|Boolean|`false`|
+|enableKeyNavigation|Enables keyboard navigation if `true` (arrow left and arrow right).|Boolean|`true`|
+|enablePagination|Enables pagination (next, previous and finish button) if `true`.|Boolean|`true`|
+|suppressPaginationOnFocus|Suppresses pagination if a form field is focused.|Boolean|`true`|
+|enableContentCache|Enables cache for async loaded or iframe embedded content.|Boolean|`true`|
+|enableFinishButton|Shows the finish button if enabled.|Boolean|`true`|
+|showFinishButtonAlways|Shows the finish always (on each step; right beside the next button) if `true`. Otherwise the next button will be replaced by the finish on the last step.|Boolean|`false`|
+
 
 ```javascript
 var settings = {
-
-
-    /*
-     * Behaviour
-     */
-
-    /**
-     * Sets the focus to the first wizard instance in order to enable the key navigation from the begining if `true`. 
-     **/
-    autoFocus: false,
-    /**
-     * Enables all steps from the begining if `true` (all steps are clickable).
-     **/
-    enableAllSteps: false,
-    /**
-     * Enables keyboard navigation if `true` (arrow left and arrow right).
-     **/
-    enableKeyNavigation: true,
-    /**
-     * Enables pagination if `true`.
-     **/
-    enablePagination: true,
-    /**
-     * Suppresses pagination if a form field is focused.
-     **/
-    suppressPaginationOnFocus: true,
-    /**
-     * Enables cache for async loaded or iframe embedded content.
-     **/
-    enableContentCache: true,
-    /**
-     * Shows the finish button if enabled.
-     **/
-    enableFinishButton: true,
-    /**
-     * Not yet implemented.
-     **/
-    preloadContent: false,
-    /**
-     * Shows the finish always (on each step; right beside the next button) if `true`. 
-     * Otherwise the next button will be replaced by the finish on the last step.
-     **/
-    showFinishButtonAlways: false,
     /**
      * Forces forward navigation (move backward is not possible).
      **/
