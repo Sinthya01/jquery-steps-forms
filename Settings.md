@@ -36,11 +36,11 @@ var settings = {
     /**
      * The title template which will be used to create a step button.
      **/
-    titleTemplate: "<span class=\"number\">#index#.</span> #title#",
+    titleTemplate: "<span class='number'>#index#.</span> #title#",
     /**
      * The loading template which will be used to create the loading animation.
      **/
-    loadingTemplate: "<span class=\"spinner\"></span> #text#",
+    loadingTemplate: "<span class='spinner'></span> #text#",
 
     /*
      * Behaviour
