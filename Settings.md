@@ -27,7 +27,7 @@
 |suppressPaginationOnFocus|Suppresses pagination if a form field is focused.|Boolean|`true`|
 |enableContentCache|Enables cache for async loaded or iframe embedded content.|Boolean|`true`|
 |enableFinishButton|Shows the finish button if enabled.|Boolean|`true`|
-|showFinishButtonAlways|Shows the finish button always (on each step; right beside the next button) if `true`. Otherwise the next button will be replaced by the finish butten if the last step becomes active.|Boolean|`false`|
+|showFinishButtonAlways|Shows the finish button always (on each step; right beside the next button) if `true`. Otherwise the next button will be replaced by the finish button if the last step becomes active.|Boolean|`false`|
 |forceMoveForward|Forces forward navigation (move backward is not possible).|Boolean|`false`|
 |saveState|Saves the current state (step position) to a cookie. By coming next time the last active step becomes activated.|Boolean|`false`|
 |startIndex|The position to start on (zero-based).|Integer|`0`|
