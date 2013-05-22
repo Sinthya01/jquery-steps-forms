@@ -22,7 +22,7 @@ Welcome to **jQuery Steps**
 
 ### API Reference
 
-* **Settings**
+* **[Settings](https://github.com/rstaib/jquery-steps/wiki/Settings)**
 * **Methods**
 * **Events**
 * **Transitions**
