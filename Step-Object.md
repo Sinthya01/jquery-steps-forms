@@ -1,3 +1,5 @@
+Represents an step object.
+
 |Property Name|Description|Type|Default Value|
 |---|---|---|---|
 |title|The step title (HTML).|String|``|
