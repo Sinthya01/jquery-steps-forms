@@ -1,3 +1,7 @@
+|Settings name|Description|Type|Default value|
+|---|---|---|---|
+
+
 ```javascript
 var settings = {
     /**
