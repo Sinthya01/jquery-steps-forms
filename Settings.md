@@ -36,7 +36,7 @@
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
-|transitionEffect|The animation effect which will be used for step transitions.|String or Integer|`none` or `0`|
+|[transitionEffect](https://github.com/rstaib/jquery-steps/wiki/Transition-Effects)|The animation effect which will be used for step transitions.|String or Integer|`none` or `0`|
 |transitionEffectSpeed|Animation speed for step transitions (in milliseconds).|Integer|`200`|
 
 ## Events
