@@ -15,6 +15,7 @@
 
 ```javascript
 $("#wizard").steps("insert", 0, {
-   ...
+   title: "Step Title",
+   content: "<p>Step Body</p>"
 });
 ```
