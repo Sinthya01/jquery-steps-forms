@@ -1,50 +1,24 @@
-|Settings name|Description|Type|Default value|
-|---|---|---|---|
+# Appearance
 
+|Setting Name|Description|Type|Default Value|
+|---|---|---|---|
+|headerTag|The header tag is used to find the step button text within the declared wizard area.|String|h1|
+|bodyTag|The body tag is used to find the step content within the declared wizard area.|String|div|
+|contentContainerTag|The content container tag which will be used to wrap all step contents.|String|div|
+|actionContainerTag|The action container tag which will be used to wrap the pagination navigation.|String|div|
+|stepsContainerTag|The steps container tag which will be used to wrap the steps navigation.|String|div|
+|cssClass|The css class which will be added to the outer component wrapper.|String|wizard|
+
+# Templates
+
+|Setting Name|Description|Type|Default Value|
+|---|---|---|---|
+|titleTemplate|The title template which will be used to create a step button.|String|<span class="number">#index#.</span> #title#|
+|loadingTemplate|The loading template which will be used to create the loading animation.|String|<span class="spinner"></span> #text#|
 
 ```javascript
 var settings = {
-    /**
-     * HTML & CSS Configuration
-     **/
-        
-    /**
-     * The header tag is used to find the step button text within the declared wizard area.
-     **/
-    headerTag: "h1",
-    /**
-     * The body tag is used to find the step content within the declared wizard area.
-     **/
-    bodyTag: "div",
-    /**
-     * The content container tag which will be used to wrap all step contents.
-     **/
-    contentContainerTag: "div",
-    /**
-     * The action container tag which will be used to wrap the pagination navigation.
-     **/
-    actionContainerTag: "div",
-    /**
-     * The steps container tag which will be used to wrap the steps navigation.
-     **/
-    stepsContainerTag: "div",
-    /**
-     * The css class which will be added to the outer component wrapper.
-     **/
-    cssClass: "wizard",
 
-    /*
-     * Tempplates
-     */
-
-    /**
-     * The title template which will be used to create a step button.
-     **/
-    titleTemplate: "<span class='number'>#index#.</span> #title#",
-    /**
-     * The loading template which will be used to create the loading animation.
-     **/
-    loadingTemplate: "<span class='spinner'></span> #text#",
 
     /*
      * Behaviour
