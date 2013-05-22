@@ -1,4 +1,4 @@
-# Appearance
+## Appearance
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
@@ -9,14 +9,14 @@
 |stepsContainerTag|The steps container tag which will be used to wrap the steps navigation.|String|`div`|
 |cssClass|The css class which will be added to the outer component wrapper.|String|`wizard`|
 
-# Templates
+## Templates
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
 |titleTemplate|The title template which will be used to create a step button.|String|`<span class="number">#index#.</span> #title#`|
 |loadingTemplate|The loading template which will be used to create the loading animation.|String|`<span class="spinner"></span> #text#`|
 
-# Behaviour
+## Behaviour
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
@@ -32,14 +32,14 @@
 |saveState|Saves the current state (step position) to a cookie. By coming next time the last active step becomes activated.|Boolean|`false`|
 |startIndex|The position to start on (zero-based).|Integer|`0`|
 
-# Transition Effects
+## Transition Effects
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
 |transitionEffect|The animation effect which will be used for step transitions.|String or Integer|`none` or `0`|
 |transitionEffectSpeed|Animation speed for step transitions (in milliseconds).|Integer|`200`|
 
-# Events
+## Events
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
@@ -48,7 +48,7 @@
 |onFinishing|Fires before finishing and can be used to prevent completion by returning `false`. Very useful for form validation.|Event|`function (event, currentIndex) { return true; }`|
 |onFinished|Fires after completion.|Event|`function (event, currentIndex) { }`|
 
-# Labels
+## Labels
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
@@ -58,7 +58,53 @@
 |previous|Label for the previous button.|String|`Previous`|
 |loading|Label for the loading animation.|String|`Loading ...`|
 
+## Example
 
 ```javascript
+var settings = {
+    /* Appearance */
+    headerTag: "h1",
+    bodyTag: "div",
+    contentContainerTag: "div",
+    actionContainerTag: "div",
+    stepsContainerTag: "div",
+    cssClass: "wizard",
 
+    /* Templates */
+    titleTemplate: "<span class=\"number\">#index#.</span> #title#",
+    loadingTemplate: "<span class=\"spinner\"></span> #text#",
+
+    /* Behaviour */
+    autoFocus: false,
+    enableAllSteps: false,
+    enableKeyNavigation: true,
+    enablePagination: true,
+    suppressPaginationOnFocus: true,
+    enableContentCache: true,
+    enableFinishButton: true,
+    preloadContent: false,
+    showFinishButtonAlways: false,
+    forceMoveForward: false,
+    saveState: false,
+    startIndex: 0,
+
+    /* Transition Effects */
+    transitionEffect: $.fn.steps.transitionEffect.none,
+    transitionEffectSpeed: 200,
+
+    /* Events */
+    onStepChanging: function (event, currentIndex, newIndex) { return true; },
+    onStepChanged: function (event, currentIndex, priorIndex) { },
+    onFinishing: function (event, currentIndex) { return true; }, 
+    onFinished: function (event, currentIndex) { },
+
+    /* Labels */
+    labels: {
+        current: "current step:",
+        finish: "Finish",
+        next: "Next",
+        previous: "Previous",
+        loading: "Loading ..."
+    }
+};
 ```
