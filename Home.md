@@ -13,7 +13,7 @@ Welcome to **jQuery Steps**
 * **Async Example**
 * **[Embedded Iframe Example](http://rstaib.github.io/jquery-steps/iframe.html)**
 * **[Basic Form Example](http://rstaib.github.io/jquery-steps/basic-form.html)**
-* **Advanced Form Example**
+* **[Advanced Form Example](http://rstaib.github.io/jquery-steps/advanced-form.html)**
 * **[Dynamic Manipulation Example](http://rstaib.github.io/jquery-steps/add-remove.html)**
 * **Pagination Example**
 * **[Tabs Example](http://rstaib.github.io/jquery-steps/tabs.html)**
