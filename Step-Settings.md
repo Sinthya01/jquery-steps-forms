@@ -9,7 +9,7 @@
 
 ```javascript
 $("#wizard").steps("add", {
-    title: "",
+    title: "Step Title",
     contentMode: "async",
     contentUrl: "data.xml"
 });
