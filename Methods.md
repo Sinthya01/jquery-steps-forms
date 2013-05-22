@@ -10,3 +10,11 @@
 |previous|Routes to the next step.|-|Boolean|
 |finish|Triggers the onFinishing and onFinished event.|-|void|
 |skip|Skips an certain amount of steps. Not yet implemented!|Integer count|Boolean|
+
+## Example
+
+```javascript
+$("#wizard").steps("insert", 0, {
+   ...
+});
+```
