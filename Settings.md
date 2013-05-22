@@ -27,87 +27,38 @@
 |suppressPaginationOnFocus|Suppresses pagination if a form field is focused.|Boolean|`true`|
 |enableContentCache|Enables cache for async loaded or iframe embedded content.|Boolean|`true`|
 |enableFinishButton|Shows the finish button if enabled.|Boolean|`true`|
-|showFinishButtonAlways|Shows the finish always (on each step; right beside the next button) if `true`. Otherwise the next button will be replaced by the finish on the last step.|Boolean|`false`|
+|showFinishButtonAlways|Shows the finish button always (on each step; right beside the next button) if `true`. Otherwise the next button will be replaced by the finish on the last step.|Boolean|`false`|
+|forceMoveForward|Forces forward navigation (move backward is not possible).|Boolean|`false`|
+|saveState|Saves the current state (step position) to a cookie. By coming next time the last active step becomes activated.|Boolean|`false`|
+|startIndex|The position to start on (zero-based).|Integer|`0`|
+
+# Transition Effects
+
+|Setting Name|Description|Type|Default Value|
+|---|---|---|---|
+|transitionEffect|The animation effect which will be used for step transitions.|String or Integer|`none` or `0`|
+|transitionEffectSpeed|Animation speed for step transitions (in milliseconds).|Integer|`200`|
+
+# Events
+
+|Setting Name|Description|Type|Default Value|
+|---|---|---|---|
+|onStepChanging|Fires before the step changes and can be used to prevent step changing by returning `false`. Very useful for form validation.|Event|`function (event, currentIndex, newIndex) { return true; }`|
+|onStepChanged|Fires after the step has change.|Event|`function (event, currentIndex, priorIndex) { }`|
+|onFinishing|Fires before finishing and can be used to prevent completion by returning `false`. Very useful for form validation.|Event|`function (event, currentIndex) { return true; }`|
+|onFinished|Fires after completion.|Event|`function (event, currentIndex) { }`|
+
+# Labels
+
+|Setting Name|Description|Type|Default Value|
+|---|---|---|---|
+|current|This label is important for accessability reasons. Indicates which step is activated.|String|`current step:`|
+|finish|Label for the finish button.|String|`Finish`|
+|next|Label for the next button.|String|`Next`|
+|previous|Label for the previous button.|String|`Previous`|
+|loading|Label for the loading animation.|String|`Loading ...`|
 
 
 ```javascript
-var settings = {
-    /**
-     * Forces forward navigation (move backward is not possible).
-     **/
-    forceMoveForward: false,
-    /**
-     * Saves the current state (step position) to a cookie.
-     * By coming next time the last active step becomes activated.
-     **/
-    saveState: false,
-    /**
-     * The position to start on (zero-based).
-     **/
-    startIndex: 0,
 
-    /*
-     * Animation Effect Configuration
-     */
-
-    /**
-     * The animation effect which will be used for step transitions.
-     **/
-    transitionEffect: $.fn.steps.transitionEffect.none,
-    /**
-     * Animation speed for step transitions (in milliseconds).
-     **/
-    transitionEffectSpeed: 200,
-
-    /*
-     * Events
-     */
-
-    /**
-     * Fires before the step changes and can be used to prevent step changing by returning `false`. 
-     * Very useful for form validation. 
-     **/
-    onStepChanging: function (event, currentIndex, newIndex) { return true; },
-    /**
-     * Fires after the step has change. 
-     **/
-    onStepChanged: function (event, currentIndex, priorIndex) { },
-    /**
-     * Fires before finishing and can be used to prevent completion by returning `false`. 
-     * Very useful for form validation.
-     **/
-    onFinishing: function (event, currentIndex) { return true; }, 
-    /**
-     * Fires after completion. 
-     **/
-    onFinished: function (event, currentIndex) { },
-
-    /*
-     * Labels
-     */
-
-    labels: {
-        /**
-         * This label is important for accessability reasons. 
-         * Indicates which step is activated.
-         **/
-        current: "current step:",
-        /**
-         * Label for the finish button.
-         **/
-        finish: "Finish",
-        /**
-         * Label for the next button.
-         **/
-        next: "Next",
-        /**
-         * Label for the previous button.
-         **/
-        previous: "Previous",
-        /**
-         * Label for the loading animation.
-         **/
-        loading: "Loading ..."
-    }
-};
 ```
