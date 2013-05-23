@@ -2,10 +2,10 @@ Represents an step object.
 
 |Property Name|Description|Type|Default Value|
 |---|---|---|---|
-|title|The step title (HTML).|String|``|
-|content|The step content (HTML).|String|``|
+|title|The step title (HTML).|String|`""`|
+|content|The step content (HTML).|String|`""`|
 |[contentMode](https://github.com/rstaib/jquery-steps/wiki/Content-Mode)|Indicates how the content will be loaded.|String or Integer|`html` or `0`|
-|contentUrl|The URI that refers to the content.|String|``|
+|contentUrl|The URI that refers to the content.|String|`""`|
 
 ## JavaScript Example
 
