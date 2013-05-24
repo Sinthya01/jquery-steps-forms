@@ -28,6 +28,10 @@ Welcome to **jQuery Steps**
 * **[Events](https://github.com/rstaib/jquery-steps/wiki/Settings#events)**
 * **[Transitions](https://github.com/rstaib/jquery-steps/wiki/Settings#transition-effects)**
 
+### FAQ
+
+* **How to allow step back during step errors**
+
 ### [Requirements](https://github.com/rstaib/jquery-steps/wiki/Requirements)
 
 ### [Integration](https://github.com/rstaib/jquery-steps/wiki/Integration)
