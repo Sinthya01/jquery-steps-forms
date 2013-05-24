@@ -30,7 +30,7 @@ Welcome to **jQuery Steps**
 
 ### FAQ
 
-* **How to allow step back during step errors**
+* **[Q: How to allow step back during step errors](https://github.com/rstaib/jquery-steps/wiki/Q:-How-to-allow-step-back-during-step-errors)**
 
 ### [Requirements](https://github.com/rstaib/jquery-steps/wiki/Requirements)
 
