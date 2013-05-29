@@ -53,6 +53,7 @@
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
 |current|This label is important for accessability reasons. Indicates which step is activated.|String|`current step:`|
+|pagination|This label is important for accessability reasons and describes the kind of navigation.|String|`Pagination`|
 |finish|Label for the finish button.|String|`Finish`|
 |next|Label for the next button.|String|`Next`|
 |previous|Label for the previous button.|String|`Previous`|
@@ -101,6 +102,7 @@ var settings = {
     /* Labels */
     labels: {
         current: "current step:",
+        pagination: "Pagination",
         finish: "Finish",
         next: "Next",
         previous: "Previous",
