@@ -34,6 +34,8 @@ Welcome to **jQuery Steps**
 
 ### [Requirements](https://github.com/rstaib/jquery-steps/wiki/Requirements)
 
+### [Browser Support](https://github.com/rstaib/jquery-steps/wiki/Browser-Support)
+
 ### [Integration](https://github.com/rstaib/jquery-steps/wiki/Integration)
 
 ### [Roadmap](https://github.com/rstaib/jquery-steps/wiki/Roadmap)
