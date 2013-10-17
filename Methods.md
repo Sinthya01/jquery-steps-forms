@@ -9,6 +9,7 @@
 |next|Routes to the previous step.|-|Boolean|
 |previous|Routes to the next step.|-|Boolean|
 |finish|Triggers the onFinishing and onFinished event.|-|void|
+|destroy|Removes the control functionality completely and transforms the current state to the initial HTML structure.|-|void|
 |skip|Skips an certain amount of steps. Not yet implemented!|Integer count|Boolean|
 
 ## Example
