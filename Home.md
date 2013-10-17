@@ -9,15 +9,14 @@ Welcome to **jQuery Steps**
 
 ### Demo
 
-* **[Basic Example](http://rstaib.github.io/jquery-steps/basic.html)**
-* **Async Example**
-* **[Embedded Iframe Example](http://rstaib.github.io/jquery-steps/iframe.html)**
-* **[Basic Form Example](http://rstaib.github.io/jquery-steps/basic-form.html)**
-* **[Advanced Form Example](http://rstaib.github.io/jquery-steps/advanced-form.html)**
-* **[Dynamic Manipulation Example](http://rstaib.github.io/jquery-steps/add-remove.html)**
-* **Pagination Example**
-* **[Tabs Example](http://rstaib.github.io/jquery-steps/tabs.html)**
-* **Multiple Wizard Example**
+* **[Basic Example](http://www.jquery-steps.com/Examples#basic)**
+* **[Async Example](http://www.jquery-steps.com/Examples#async)**
+* **[Embedded Iframe Example](http://www.jquery-steps.com/Examples#embed)**
+* **[Basic Form Example](http://www.jquery-steps.com/Examples#basic-form)**
+* **[Advanced Form Example](http://www.jquery-steps.com/Examples#advanced-form)**
+* **[Dynamic Manipulation Example](http://www.jquery-steps.com/Examples#manipulation)**
+* **[Tabs Example](http://www.jquery-steps.com/Examples#tabs)**
+* **[Multiple Wizard Example](http://www.jquery-steps.com/Examples)**
 
 
 ### API Reference
