@@ -8,7 +8,7 @@
 |actionContainerTag|The action container tag which will be used to wrap the pagination navigation.|String|`div`|
 |stepsContainerTag|The steps container tag which will be used to wrap the steps navigation.|String|`div`|
 |cssClass|The css class which will be added to the outer component wrapper.|String|`wizard`|
-|stepsOrientation|Determines whether the steps are vertically or horizontally oriented.|String or Integer|`horizontal` or `0`|
+|[stepsOrientation](https://github.com/rstaib/jquery-steps/wiki/Steps-Orientation)|Determines whether the steps are vertically or horizontally oriented.|String or Integer|`horizontal` or `0`|
 
 ## Templates
 
