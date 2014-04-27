@@ -27,6 +27,7 @@
 |enablePagination|Enables pagination (next, previous and finish button) if `true`.|Boolean|`true`|
 |suppressPaginationOnFocus|Suppresses pagination if a form field is focused.|Boolean|`true`|
 |enableContentCache|Enables cache for async loaded or iframe embedded content.|Boolean|`true`|
+|enableCancelButton|Shows the cancel button if enabled.|Boolean|`true`|
 |enableFinishButton|Shows the finish button if enabled.|Boolean|`true`|
 |showFinishButtonAlways|Shows the finish button always (on each step; right beside the next button) if `true`. Otherwise the next button will be replaced by the finish button if the last step becomes active.|Boolean|`false`|
 |forceMoveForward|Prevents jumping to a previous step.|Boolean|`false`|
@@ -46,6 +47,7 @@
 |---|---|---|---|
 |onStepChanging|Fires before the step changes and can be used to prevent step changing by returning `false`. Very useful for form validation.|Event|`function (event, currentIndex, newIndex) { return true; }`|
 |onStepChanged|Fires after the step has change.|Event|`function (event, currentIndex, priorIndex) { }`|
+|onCanceled|Fires after cancelation.|Event|`function (event) { }`|
 |onFinishing|Fires before finishing and can be used to prevent completion by returning `false`. Very useful for form validation.|Event|`function (event, currentIndex) { return true; }`|
 |onFinished|Fires after completion.|Event|`function (event, currentIndex) { }`|
 
@@ -53,6 +55,7 @@
 
 |Setting Name|Description|Type|Default Value|
 |---|---|---|---|
+|cancel|Label for the cancel button.|String|`Cancel`|
 |current|This label is important for accessability reasons. Indicates which step is activated.|String|`current step:`|
 |pagination|This label is important for accessability reasons and describes the kind of navigation.|String|`Pagination`|
 |finish|Label for the finish button.|String|`Finish`|
@@ -84,6 +87,7 @@ var settings = {
     enablePagination: true,
     suppressPaginationOnFocus: true,
     enableContentCache: true,
+    enableCancelButton: true,
     enableFinishButton: true,
     preloadContent: false,
     showFinishButtonAlways: false,
@@ -97,12 +101,14 @@ var settings = {
 
     /* Events */
     onStepChanging: function (event, currentIndex, newIndex) { return true; },
-    onStepChanged: function (event, currentIndex, priorIndex) { },
+    onStepChanged: function (event, currentIndex, priorIndex) { }}, 
+    onCanceled: function (event) { },
     onFinishing: function (event, currentIndex) { return true; }, 
     onFinished: function (event, currentIndex) { },
 
     /* Labels */
     labels: {
+        cancel: "Cancel",
         current: "current step:",
         pagination: "Pagination",
         finish: "Finish",
