@@ -27,7 +27,7 @@
 |enablePagination|Enables pagination (next, previous and finish button) if `true`.|Boolean|`true`|
 |suppressPaginationOnFocus|Suppresses pagination if a form field is focused.|Boolean|`true`|
 |enableContentCache|Enables cache for async loaded or iframe embedded content.|Boolean|`true`|
-|enableCancelButton|Shows the cancel button if enabled.|Boolean|`true`|
+|enableCancelButton|Shows the cancel button if enabled.|Boolean|`false`|
 |enableFinishButton|Shows the finish button if enabled.|Boolean|`true`|
 |showFinishButtonAlways|Shows the finish button always (on each step; right beside the next button) if `true`. Otherwise the next button will be replaced by the finish button if the last step becomes active.|Boolean|`false`|
 |forceMoveForward|Prevents jumping to a previous step.|Boolean|`false`|
