@@ -50,6 +50,8 @@
 |onCanceled|Fires after cancelation.|Event|`function (event) { }`|
 |onFinishing|Fires before finishing and can be used to prevent completion by returning `false`. Very useful for form validation.|Event|`function (event, currentIndex) { return true; }`|
 |onFinished|Fires after completion.|Event|`function (event, currentIndex) { }`|
+|onInit|Fires when the wizard is initialized.|Event|`function (event, currentIndex) { }`|
+|onContentLoaded|Fires after async content is loaded.|Event|`function (event, currentIndex) { }`|
 
 ## Labels
 
