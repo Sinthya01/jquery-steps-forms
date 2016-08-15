@@ -6,8 +6,8 @@
 |getCurrentStep|Gets the current step object.|-|[Object step](https://github.com/rstaib/jquery-steps/wiki/Step-Object)|
 |getCurrentIndex|Gets the current step index.|-|Integer|
 |getStep|Gets a specific step object by index.|Integer index|[Object step](https://github.com/rstaib/jquery-steps/wiki/Step-Object)|
-|next|Routes to the previous step.|-|Boolean|
-|previous|Routes to the next step.|-|Boolean|
+|next|Routes to the next step.|-|Boolean|
+|previous|Routes to the previous step.|-|Boolean|
 |finish|Triggers the onFinishing and onFinished event.|-|void|
 |destroy|Removes the control functionality completely and transforms the current state to the initial HTML structure.|-|void|
 |skip|Skips a certain amount of steps. Not yet implemented!|Integer count|Boolean|
